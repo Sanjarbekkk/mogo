@@ -1,0 +1,364 @@
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width : 992px;
+    }
+    .myadress {
+        padding-left: 0px;
+        display: none;
+    }
+    .lamp-text {
+        display: inline-block;
+        padding-left: 5px;
+    }
+    .service_left {
+        width: 100%;
+    }
+    .service {
+        float:none;
+    }
+    .services {
+        align-items: center;
+    }
+    .about {
+        width: 49%;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .logo-list {
+        height: auto;
+    }
+    .service_left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .right-info {
+        width: 100%;
+    }
+    .blog_date {
+        margin-top: 110px;
+    }
+    .subscribe_btn {
+        margin: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width : 768px;
+    }
+    .myadress-tablet{
+        display: block;
+    }
+    .myadress{
+        display: none;
+    }
+    .subscribe2 {
+        display: flex;
+        align-items: center;
+        padding-top: 380px;
+        align-content: center;
+        justify-content: center;
+    }
+    ul.nav {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu {
+        float: none; 
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        display: block;
+        text-align: center;
+    }
+    li.nav-item {
+        padding: 0 20px;
+    }
+    .creat h1 {
+        font-size: 50px;
+    }
+    .wel h1 {
+        font-size: 120px;
+    }
+    .num_count {
+        font-size: 50px;
+    } 
+    .num_item {
+        padding: 50px 20px;
+    }    
+    .num_text {
+        font-size: 12px;
+    }
+    .tel {
+        right: 50px;
+        top: 0;
+    }
+    .right-info {
+        width: auto;
+    }
+    .blog {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog_item {
+        width: 100%;
+        padding: 30px;
+        text-align: -webkit-center;
+    }
+    .gallery-block {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .foto_col {
+        width: 90%;
+    }
+    .myadress {
+        text-align: -webkit-center;
+    }
+    .myadress-tablet, .myadress-phone {
+        text-align: -webkit-center;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width : 600px;
+    }
+    .myadress-phone{
+        display: none;
+    }
+    .subscribe2 {
+        padding: 240px 10px 0 0;
+    }
+    .menu-btn_burger .open {
+        padding: 20px 30px 17px 30px;
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 80px;
+    }
+    li.nav-item {
+        padding: 7px 15px;
+    }
+
+    .active {
+        display: block;
+    }
+    .creat h1 {
+        font-size: 40px;
+    }
+    .wel h1 {
+        font-size: 90px;
+    }
+    .slider_num {
+        display: block;
+    }
+    .about {
+        padding-top: 25px;
+        width: 100%;
+    }
+    .num_count {
+        font-size: 35px;
+    }
+    .num_item {
+        padding: 10px 5px;
+    }    
+    .num_text {
+        font-size: 11px;
+    }
+    .services_item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .services {
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .right-info {
+        width: auto;
+    }
+    .service_left img {
+        width: 450px;
+    }
+    .display {
+        width: 300px;
+         height: auto; 
+    }
+    .slider_item {
+        font-size: 13px;
+    }
+    .slider_num {
+        font-size: 20px;
+    }
+    .mesej {
+        flex-direction: column;
+    }
+    .mesej_icon {
+        width: 35%;
+        display: block;
+        margin: 0 auto;
+    }
+    .mesej_text {
+        width: 75%;
+        padding: 30px 0;
+    }
+    .clients_item {
+        width: 100%;
+    }
+    .footer_mogo {
+        width: 100%;
+    }
+    .blogs {
+        width: 100%;
+    }
+    .insta {
+        width: 100%;
+    }
+    .clients_photo {
+        position: inherit;
+    }
+    .joshua_icon {
+        width: 98%;
+        text-align: -webkit-center;
+    }
+    i.fas.fa-angle-right {
+        bottom: 340px;
+    }
+    i.fas.fa-angle-left {
+        top: 280px;
+    }
+    .clients_item {
+        padding:35px 50px ;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width : 480px;
+    }
+    .subscribe2 {
+        padding: 150px 10px 0 0;
+    }
+    .myadress-tablet{
+        display: none;
+    }
+    .myadress{
+        display: none;
+    }
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        display: block;
+        text-align:left ;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+        /* f77d7b */
+    }
+    .fas_burger {
+        color: #fff;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    ul.nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    .navbur {
+        display: flex;
+    }
+    a.iconbur {
+        padding: 5px;
+        color: #fff;
+    } 
+    .creat h1 {
+        font-size: 30px;
+    }
+    .wel h1 {
+        font-size: 60px;
+    }
+    .num_count {
+        font-size: 25px;
+    }
+    .num_text {
+        font-size: 8px;
+    }
+    .service_left img {
+        width: 350px;
+    }
+    .tel {
+       display: none;
+    }
+    .service_left img {
+        width: 290px;
+    }
+    .services_item {
+        padding-left: 50px;
+        margin-left: 20px;
+    }
+    .joshua {
+        flex-direction: column;
+    }
+    .joshua_icon {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_mogo {
+        text-align: center;
+    }
+    .subscribe {
+        text-align: center;
+    }
+    .blogs {
+        text-align: center;
+    }
+    .lamp {
+        float:none;
+    }
+    .insta {
+        text-align: center;
+    }
+    .blog_date {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width : 320px;
+    }
+    .us {
+        padding: 4px;
+    }
+    .wel h1 {
+        font-size: 40px;
+    }
+    .display {
+        width: 250px;
+    }
+    .myadress-phone{
+        display: none;
+    }
+    .myadress-mini{
+        display: block;
+    }
+}
